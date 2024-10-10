@@ -1,4 +1,4 @@
-MANIPULAÇÃO DE ARQUIVOS COM PYTHON
+MANIPULAÇÃO DE ARQUIVOS EM PYTHON
 ----
 Neste README.md contém minhas anotações em relação ao estudo de manipulação de arquivos em python como comandos, modos e etc.
 
