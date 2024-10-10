@@ -1,4 +1,4 @@
-arq = open('arquivo.txt','w')
+arq = open('arquivo.txt','r')
 
 # - write -
 # arq.write('olá mundo')
@@ -15,5 +15,9 @@ arq = open('arquivo.txt','w')
 # arq.close() -> sempre que começar um arquivo você deve fecha-lo!
 
 # com 'with' e 'as' 
-with open('arquivo.txt', 'a') as arq:
-    arq.write('teste')
+# with open('arquivo.txt', 'a') as arq:
+#    arq.write('teste')
+
+# print(arq.readable())
+print(arq.readline())
+arq.close()
